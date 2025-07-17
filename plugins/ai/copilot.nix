@@ -9,7 +9,7 @@ in
       enable = true;
       settings = {
         keymaps = {
-          submit = "<C-F>";
+          submit = "<C-Enter>";
           close = "<Esc>";
         };
       };

@@ -16,7 +16,7 @@ in
           "<c-h>" = [ "snippet_backward" "fallback" ];
           "<C-u>" = [ "scroll_documentation_up" "fallback" ];
           "<C-d>" = [ "scroll_documentation_down" "fallback" ];
-          "<C-space>" = [
+          "<S-Tab>" = [
             (mkRaw # lua
               ''
                 function(cmp)
